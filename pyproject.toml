@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pydos2unix"
+version = "0.0.1"
+license = "MIT"
+readme = "README.md"
+authors = [{ name="Dylan McDougall", email="dylanalexandermcdougall@outlook.com" }]
+description = "Convert DOS (CRLF) files to Unix (LF) files and vice vera, written in Python."
+keywords = ["dos2unix", "unix2dos"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dmcdo/pydos2unix"
